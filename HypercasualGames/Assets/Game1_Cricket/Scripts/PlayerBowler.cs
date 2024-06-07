@@ -8,6 +8,7 @@ public class PlayerBowler : MonoBehaviour
 
     [Header("Elements")]
     [SerializeField] private Animator bowlerAnimator;
+    [SerializeField] private GameObject fakeBall;
 
     [Header("Settings")]
     [SerializeField] private float moveSpeed;
@@ -45,18 +46,6 @@ public class PlayerBowler : MonoBehaviour
 
     
 
-    private void Run()
-    {
-        transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
-
-        runTimer += Time.deltaTime;
-
-        if(runTimer >= runDuration)
-        {
-            state = State.Bowling;
-        }
-    }
-
     void StartRunning()
     {
         state = State.Running;
@@ -67,5 +56,22 @@ public class PlayerBowler : MonoBehaviour
     {
         state = State.Bowling;
         bowlerAnimator.SetInteger("State", 2);
+    }
+
+    private void Run()
+    {
+        transform.position += Vector3.forward * moveSpeed * Time.deltaTime;
+
+        runTimer += Time.deltaTime;
+
+        if (runTimer >= runDuration)
+        {
+            state = State.Bowling;
+        }
+    }
+
+    public void ThrowBall()
+    {
+        fakeBall.SetActive(false);
     }
 }
