@@ -8,18 +8,19 @@ public class SquareTester : MonoBehaviour
     Vector2 topCentre, rightCentre, bottomCentre, leftCentre;
 
     [SerializeField] private float gridScale;
+    [SerializeField] private float isoValue;
     [SerializeField] private MeshFilter meshFilter;
 
     private List<Vector3> vertices = new List<Vector3>();
     private List<int> triangles = new List<int>();
 
     [Header("Configuration")]
-    [SerializeField] private bool topRightState;
-    [SerializeField] private bool bottomRightState;
-    [SerializeField] private bool bottomLeftState;
-    [SerializeField] private bool topLeftState;
+    [SerializeField] private float topRightState;
+    [SerializeField] private float bottomRightState;
+    [SerializeField] private float bottomLeftState;
+    [SerializeField] private float topLeftState;
 
-
+    [SerializeField] private float topLerp;
 
 
     private void Start()
