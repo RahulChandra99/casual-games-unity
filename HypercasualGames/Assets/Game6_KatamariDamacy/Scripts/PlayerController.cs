@@ -14,6 +14,8 @@ namespace Game6_KatamariDamacy.Scripts
         [SerializeField] private GameObject mainCamera;
         private float distanceToCamera = 5;
 
+        private float size = 1;
+
         private void Update()
         {
             x = Input.GetAxis("Horizontal") * Time.deltaTime * -100;
@@ -30,6 +32,19 @@ namespace Game6_KatamariDamacy.Scripts
             mainCamera.transform.position =
                 new Vector3(-unitVector2.x * distanceToCamera, distanceToCamera, -unitVector2.y * distanceToCamera) +
                 this.transform.position;
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.transform.CompareTag("Sticky"))
+            {
+                transform.localScale += new Vector3(0.01f, 0.01f, 0.01f);
+                size += 0.01f;
+                distanceToCamera += 0.08f;
+                other.enabled = false;
+
+                other.transform.SetParent(this.transform);
+            }
         }
     }
 }
