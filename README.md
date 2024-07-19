@@ -1,4 +1,5 @@
 # Casual-Games
+More details @ https://www.rahulchandraportfolio.com/hypercasualgames 
 
 This collection of casual games was created as part of a personal project for practice purposes.
 
