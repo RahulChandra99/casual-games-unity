@@ -1,21 +1,27 @@
-<<<<<<< HEAD
-# Hypercasual-games
-
-Game Ideas
-1. Word Games
-2. 2048
-=======
 # Casual-Games
-More details @ https://www.rahulchandraportfolio.com/hypercasualgames 
 
 This collection of casual games was created as part of a personal project for practice purposes.
 
-The project's primary goal is to learn game programming concepts by developing various games.
+The primary goal of this project is to learn game programming concepts by developing various games. It includes classic games like Minesweeper and Snake, as well as mobile hyper-casual games featuring diverse mechanics based on current trends.
 
-It includes classic games like Minesweeper and Snake, as well as mobile hyper-casual games featuring diverse mechanics based on current trends.
+All the games were developed using the Unity Engine with C# and assets sourced from external websites and the Unity Asset Store. Some games are complete, while others are works in progress and are updated periodically.
 
-All the games were developed using the Unity Engine with C# and assets sourced from external websites and the Unity Asset Store.
+## Index
+- [Beat The Blues](#game-1-beat-the-blues)
+- [Tic Tac Toe in Pixels](#game-2-tic-tac-toe-in-pixels)
+- [Maze Collapse](#game-3-maze-collapse)
+- [Endless Runner Prototype](#game-4-endless-runner-prototype)
+- [Modern Endless Runner](#game-5-modern-endless-runner)
+- [2048](#game-6-2048)
 
-Some games are complete, while others are works in progress and are updated periodically.
+## Game 1: Beat The Blues
+## Game 2: Tic Tac Toe in Pixels
+## Game 3: Maze Collapse
+## Game 4: Endless Runner Prototype
+## Game 5: Modern Endless Runner
+## Game 6: 2048
 
->>>>>>> 3ed4fc85b4b3852b6fbfb81d7ffb42306cb6585c
+## Games to Implement
+- [ ] 2048
+- [ ] Wordle
+- [ ] Crossword
