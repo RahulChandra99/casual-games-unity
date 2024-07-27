@@ -15,6 +15,18 @@ All the games were developed using the Unity Engine with C# and assets sourced f
 - [2048](#game-6-2048)
 
 ## Game 1: Beat The Blues
+
+Idea From: Mmm Fingers
+
+Project Date: 2022
+
+About Project 
+
+"Beat the Blues is a mobile game where you guide your finger through a maze of obstacles. The goal is to avoid getting your finger 'chomped' by various traps.
+
+The game is simple yet challenging, offering endless fun as you try to beat your high score and navigate through increasingly difficult levels."
+
+
 ## Game 2: Tic Tac Toe in Pixels
 ## Game 3: Maze Collapse
 ## Game 4: Endless Runner Prototype
