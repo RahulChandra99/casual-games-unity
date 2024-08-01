@@ -14,6 +14,7 @@ All the games were developed using the Unity Engine with C# and assets sourced f
 - [Modern Endless Runner](#game-5-modern-endless-runner)
 - [2048](#game-6-2048)
 - [Tic Tac Toe in Pixels](#game-7-tic-tac-toe-in-pixels)
+- [Dodgeball Arena](#game-8-dodgeball-arena)
 
 ## Game 1: Beat The Blues
 
@@ -34,6 +35,7 @@ The game is simple yet challenging, offering endless fun as you try to beat your
 ## Game 5: Modern Endless Runner
 ## Game 6: 2048
 ## Game 7: Tic Tac Toe in Pixels
+## Game 8: Dodgeball Arena
 
 ## Games to Implement
 - [ ] 2048
