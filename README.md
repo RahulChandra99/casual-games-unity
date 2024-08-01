@@ -8,11 +8,12 @@ All the games were developed using the Unity Engine with C# and assets sourced f
 
 ## Index
 - [Beat The Blues](#game-1-beat-the-blues)
-- [Tic Tac Toe in Pixels](#game-2-tic-tac-toe-in-pixels)
+- [Type Climber](#game-2-type-climber)
 - [Maze Collapse](#game-3-maze-collapse)
 - [Endless Runner Prototype](#game-4-endless-runner-prototype)
 - [Modern Endless Runner](#game-5-modern-endless-runner)
 - [2048](#game-6-2048)
+- [Tic Tac Toe in Pixels](#game-7-tic-tac-toe-in-pixels)
 
 ## Game 1: Beat The Blues
 
@@ -27,11 +28,12 @@ About Project 
 The game is simple yet challenging, offering endless fun as you try to beat your high score and navigate through increasingly difficult levels."
 
 
-## Game 2: Tic Tac Toe in Pixels
+## Game 2: Type Climber
 ## Game 3: Maze Collapse
 ## Game 4: Endless Runner Prototype
 ## Game 5: Modern Endless Runner
 ## Game 6: 2048
+## Game 7: Tic Tac Toe in Pixels
 
 ## Games to Implement
 - [ ] 2048
