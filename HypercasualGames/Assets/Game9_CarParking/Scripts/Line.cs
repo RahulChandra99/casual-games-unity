@@ -48,7 +48,7 @@ public class Line : MonoBehaviour
 
    private Vector3 GetLastPoint()
    {
-      return lineRenderer.GetPosition(pointsCount-1)
+      return lineRenderer.GetPosition(pointsCount-1);
    }
 
    public void SetColor(Color color)
