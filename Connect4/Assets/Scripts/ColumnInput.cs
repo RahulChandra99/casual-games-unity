@@ -10,7 +10,6 @@ public class ColumnInput : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log(column + "pressed");
             GameManager.Instance.ColumnPressed(column);
         }
     }
