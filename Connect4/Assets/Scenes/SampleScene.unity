@@ -270,8 +270,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59c3f0d7f7a82d40811c08ed5742dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  player1: {fileID: 4558178981143150953, guid: f304c5cced9520d46ba16da54445d289, type: 3}
+  player2: {fileID: 874931159468665173, guid: 95a68569ea8f98d4db77e4a62940afb5, type: 3}
+  startPoint: {fileID: 1780622107}
+  _activeTurn: 1
 --- !u!4 &329330834
 Transform:
   m_ObjectHideFlags: 0
