@@ -1,2 +1,0 @@
-com/DefaultCompany/ThePhysicsLESSBallofExcitement/BuildConfig.java
- com.DefaultCompany.ThePhysicsLESSBallofExcitement.BuildConfig
